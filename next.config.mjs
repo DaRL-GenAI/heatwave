@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-   basePath: '/deepshade-website',
+  basePath: '/deepshade-website',
+  assetPrefix: '/deepshade-website/',   // 👈 important for CSS/JS paths
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -9,7 +10,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
+    unoptimized: true, // needed for static export
   },
 }
 
