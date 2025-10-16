@@ -39,7 +39,7 @@ export function MethodSection() {
               }}
             >
               <img
-                src="/images/architecture.png"
+                src="./images/architecture.png"
                 alt="DeepShade Architecture"
                 className="rounded-lg object-contain max-h-[400px] mx-auto"
               />

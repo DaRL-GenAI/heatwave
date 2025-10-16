@@ -19,7 +19,7 @@ export function VisualResultsSection() {
         {/* Single Figure instead of 3 separate cards */}
         <div className="bg-[#1e293b] p-8 rounded-3xl max-w-[1200px] mx-auto">
           <img
-            src="/images/shade-variations.png"
+            src="./images/shade-variations.png"
             alt="Shade variations throughout the day"
             className="rounded-2xl object-contain mx-auto"
           />

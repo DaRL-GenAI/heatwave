@@ -40,7 +40,7 @@ export function ApplicationSection() {
           >
             <div className="rounded-xl flex items-center justify-center bg-[#f1f5f9] p-4">
               <img
-                src="/images/route-planning.png"
+                src="./images/route-planning.png"
                 alt="Route Planning Demonstration"
                 className="rounded-lg object-contain w-full max-w-5xl mx-auto"
               />

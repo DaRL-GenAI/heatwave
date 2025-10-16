@@ -67,7 +67,7 @@ export function ResultsSection() {
             </h3>
             <div className="rounded-xl flex items-center justify-center bg-[#f1f5f9] p-4">
               <img
-                src="/images/training-loss.png"
+                src="./images/training-loss.png"
                 alt="Training Loss Curves"
                 className="rounded-lg object-contain w-full max-w-3xl mx-auto"
               />

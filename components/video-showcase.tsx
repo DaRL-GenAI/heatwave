@@ -36,7 +36,7 @@ export function VideoShowcase() {
           style={{ boxShadow: "0 40px 80px rgba(0,0,0,0.3)" }}
         >
           <img
-            src="/images/shadow-demo.gif"
+            src="./images/shadow-demo.gif"
             alt="DeepShade Shadow Simulation"
             className="rounded-2xl object-contain w-full max-w-4xl max-h-[600px]"
           />

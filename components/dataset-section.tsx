@@ -40,7 +40,7 @@ export function DatasetSection() {
               }}
             >
               <img
-                src="/images/pipeline.png"
+                src="./images/pipeline.png"
                 alt="Dataset Creation Pipeline"
                 className="rounded-lg object-contain max-h-[400px] mx-auto"
               />
