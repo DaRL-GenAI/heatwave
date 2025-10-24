@@ -25,7 +25,7 @@ export function ImpactSection() {
           <div className="bg-white p-8 rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.05)]">
             <h4 className="text-xl font-semibold mb-4 text-[#0f172a]">📱 Scalable Solution</h4>
             <p className="text-base text-slate-600 leading-relaxed">
-              Unlike LiDAR-based methods, DeepShade only requires satellite imagery—enabling city-wide deployment at low
+              Unlike LiDAR-based methods, DeepShade only requires satellite imagery - enabling city-wide deployment at low
               cost with real-time updates.
             </p>
           </div>

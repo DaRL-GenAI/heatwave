@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/deepshade-website',
-  assetPrefix: '/deepshade-website/',   // 👈 important for CSS/JS paths
+  basePath: '/heatwave',
+  assetPrefix: '/heatwave/',
+  trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -10,8 +11,8 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true, // needed for static export
+    unoptimized: true,
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;

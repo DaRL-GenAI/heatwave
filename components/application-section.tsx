@@ -56,23 +56,24 @@ export function ApplicationSection() {
 
         {/* Content Grid */}
         <div className="grid md:grid-cols-2 gap-12 max-w-[1200px] mx-auto">
-          {/* Proof of Concept */}
+          {/* Real-World Application */}
           <div>
             <h3
               className="text-2xl font-bold mb-6"
               style={{ color: "#0f172a" }}
             >
-              Proof-of-Concept Demo
+              Real-World Application
             </h3>
             <p
               className="text-base leading-[1.6] mb-6"
               style={{ color: "#64748b" }}
             >
-              We demonstrate DeepShade's practical utility through a route planning
-              system deployed at Arizona State University. The system generates
-              shade maps for any time of day, calculates shade ratios for road
-              segments, and suggests optimal routes balancing distance with shade
-              coverage.
+              DeepShade has been integrated into a prototype routing system designed for
+              deployment in urban environments prone to extreme heat. By combining real-time
+              solar geometry simulation with AI-driven shade inference, the system provides
+              safe and comfortable navigation options for pedestrians, cyclists, and drivers.
+              This demonstrates DeepShade’s potential as a public-facing, data-driven tool
+              for heat mitigation and sustainable urban design.
             </p>
             <div className="space-y-4">
               <div
@@ -86,8 +87,7 @@ export function ApplicationSection() {
                   Input
                 </div>
                 <div className="text-sm" style={{ color: "#64748b" }}>
-                  Origin, Destination, Time, User Preference (shade vs. distance
-                  weight)
+                  Real-time GPS coordinates, date, and time
                 </div>
               </div>
               <div
@@ -101,8 +101,7 @@ export function ApplicationSection() {
                   Output
                 </div>
                 <div className="text-sm" style={{ color: "#64748b" }}>
-                  Optimized route with shade ratio visualization and distance
-                  metrics
+                  Safe, shade-optimized navigation routes with interactive visual overlays
                 </div>
               </div>
             </div>
