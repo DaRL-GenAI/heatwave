@@ -62,7 +62,7 @@ export function HeroSection() {
           </a>
 
           <a
-            href="https://github.com/LongchaoDa/DeepShade"
+            href="https://github.com/LongchaoDa/DeepShade_repo"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 px-8 py-4 text-[15px] font-semibold rounded-xl bg-white transition-all duration-300"
