@@ -10,7 +10,8 @@ export function CitationSection() {
 
   const bibtex = `@article{da2025deepshade,
   title={Deepshade: Enable shade simulation by text-conditioned image generation},
-  author={Da, Longchao and Liu, Xiangrui and Shivakoti, Mithun and Kutralingam, Thirulogasankar Pranav and Yang, Yezhou and Wei, Hua},
+  author={Da, Longchao and Liu, Xiangrui and Shivakoti, Mithun and 
+          Kutralingam, Thirulogasankar Pranav and Yang, Yezhou and Wei, Hua},
   journal={arXiv preprint arXiv:2507.12103},
   year={2025}
 }`
