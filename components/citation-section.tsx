@@ -8,12 +8,11 @@ import { useState } from "react"
 export function CitationSection() {
   const [copied, setCopied] = useState(false)
 
-  const bibtex = `@inproceedings{da2025deepshade,
-  title     = {DeepShade: Enable Shade Simulation by Text-conditioned Image Generation},
-  author    = {Da, Longchao and Liu, Xiangrui and Shivakoti, Mithun and 
-               Kutralingam, Thirulogasankar Pranav and Yang, Yezhou and Wei, Hua},
-  booktitle = {International Joint Conference on Artificial Intelligence (IJCAI)},
-  year      = {2025}
+  const bibtex = `@article{da2025deepshade,
+  title={Deepshade: Enable shade simulation by text-conditioned image generation},
+  author={Da, Longchao and Liu, Xiangrui and Shivakoti, Mithun and Kutralingam, Thirulogasankar Pranav and Yang, Yezhou and Wei, Hua},
+  journal={arXiv preprint arXiv:2507.12103},
+  year={2025}
 }`
 
   const handleCopy = () => {
